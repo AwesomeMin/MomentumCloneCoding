@@ -1,0 +1,68 @@
+.hidden {
+    display: none;
+}
+
+body {
+    color: white;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-size: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    /* margin: 2%; */
+    /* border: 5px solid white; */
+}
+
+.item {
+    /* border: 3px solid red; */
+    text-align: center;
+    align-items: center;
+    width: 1200px;
+}
+
+#clock {
+    font-size: 150px;
+    padding: none;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+#todo-form, ul {
+    position: relative;
+    bottom: 60px;
+}
+
+#todo-form input {
+    width: 300px;
+    text-align: center;
+}
+
+#todo-list button {
+    text-align: center;
+    margin: 10px;
+    color: white;
+    background-color: red;
+}
+
+#quote {
+    position: relative;
+    top: 250px;
+}
+
+#greeting {
+    position: relative;
+    bottom: 120px;
+}
+
+#login-form {
+    position: relative;
+    bottom: 80px;
+}
